@@ -50,7 +50,7 @@ const Contact = () => {
                   </div>
                   <div className="col-lg-7 wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <div className="contact-form-wrap">
-                      <form>
+                      <form name="contact" netlify>
                         <div className="row g-4">
                           <div className="col-md-12">
                             <div className="form-inner">
