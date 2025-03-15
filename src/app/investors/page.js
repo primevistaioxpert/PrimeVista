@@ -5,7 +5,7 @@ import Footer1 from '@/components/Footer/Footer1'
 import Home1FooterTop from '@/components/Footer/Home1FooterTop';
 export const metadata = {
   icons: {
-    icon: "/assets/img/fav-icon.svg",
+    icon: "/assets/img/logo/pvdms8080.png",
   },
 };
 
