@@ -89,16 +89,16 @@ const page = () => {
                                                     <textarea defaultValue={""} name="message" required />
                                                 </div>
                                             </div>
-                                            <div className="col-lg-12">
+                                            {/* <div className="col-lg-12">
                                                 <div className="form-inner2">
                                                     <div className="form-check">
-                                                        <input className="form-check-input" type="checkbox" defaultValue id="contactCheck" />
+                                                        <input className="form-check-input" type="checkbox" name="terms" defaultValue id="contactCheck" />
                                                         <label className="form-check-label" htmlFor="contactCheck">
                                                             I have read &amp; accepted Terms &amp; Conditions.
                                                         </label>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <button type="submit" className="primary-btn2">
                                             <span>
