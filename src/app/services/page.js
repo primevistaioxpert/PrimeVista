@@ -5,7 +5,7 @@ import Footer1 from '@/components/Footer/Footer1'
 import Link from 'next/link'
 export const metadata = {
   icons: {
-    icon: "/assets/img/fav-icon.svg",
+    icon: "/assets/img/logo/pvdms8080.png",
   },
 };
 const ServicePage = () => {

@@ -1,6 +1,6 @@
 export const metadata = {
   icons: {
-    icon: "/assets/img/fav-icon.svg",
+    icon: "/assets/img/logo/pvdms8080.png",
   },
 };
 export default function ShopLayout({ children }) {

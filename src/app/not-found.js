@@ -20,8 +20,8 @@ const FileNotFound = () => {
                   <img src="assets/img/inner-pages/error-img.png" alt="" />
                 </div>
                 <div className="error-content">
-                  <h1>Sorry! adfsd Page not found.</h1>
-                  <p>The page you are looking for was moved, removed, renamed or never existed. we are open for this constructions &amp; architecture</p>
+                  <h1>Sorry! Page not found.</h1>
+                  <p>The page you are looking for was moved, removed, renamed or never existed.</p>
                   <Link href="/investors" className="primary-btn3 two">
                     <span>
                       Take Me Home

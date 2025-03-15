@@ -308,13 +308,13 @@ export default function RootLayout({ children }) {
       <head>
         <link
           rel="icon"
-          href="/assets/img/fav-icon.svg"
+          href="/assets/img/logo/pvdms8080.png"
           type="image/x-icon"
           sizes="16x16"
         />
-        <meta name="description" content="Your description here" />
-        <meta name="keywords" content="next.js, SEO, meta tags" />
-        <title>Vernex- Architecture & Construction Website Template.</title>
+        <meta name="description" content="Prime Vista | Innovative Real Estate & Rent-to-Own Homes" />
+        <meta name="keywords" content="Prime Vista is a leading real estate development company committed to building high-quality, affordable homes with innovative rent-to-own solutions. We create sustainable communities, offering modern residential, commercial, and industrial construction projects." />
+        <title>Prime Vista Development & Management Solutions</title>
 
         {/* GSAP Scripts */}
         <Script src="/assets/js/gsap.min.js" strategy="beforeInteractive" onLoad={() => { window.gsap.registerPlugin(window.ScrollTrigger); }} />
