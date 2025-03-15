@@ -57,36 +57,36 @@ const page = () => {
                             <div className="col-lg-7 wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="contact-form-wrap">
                                     <form name="contact" method="POST" data-netlify="true">
+                                        <input type="hidden" name="form-name" value="contact" />
                                         <div className="row g-4">
                                             <div className="col-md-12">
                                                 <div className="form-inner">
                                                     <label>Full Name *</label>
-                                                    <input type="text" />
+                                                    <input type="text" name="Fullname" requried/>
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="form-inner">
                                                     <label>Email *</label>
-                                                    <input type="email" />
+                                                    <input type="email" name="Email" required />
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="form-inner">
                                                     <label>Phone *</label>
-                                                    <input type="text" />
+                                                    <input type="text" name="Phone" required/>
                                                 </div>
                                             </div>
-                                            <div className="col-md-12">
+                                            {/*<div className="col-md-12">
                                                 <div className="form-inner">
                                                     <label>Service Type</label>
-                                                    <SelectComponent options={["Conceptual Design","Project Planning","Site Analysis"]} placeholder="Site Analysis"/>
-                                                    
+                                                    <SelectComponent options={["Residential","Commercial","Industrial", "General"]} placeholder="Residential"/>
                                                 </div>
-                                            </div>
+                                            </div>*/}
                                             <div className="col-md-12">
                                                 <div className="form-inner">
                                                     <label>Message *</label>
-                                                    <textarea defaultValue={""} />
+                                                    <textarea defaultValue={""} name="message" required />
                                                 </div>
                                             </div>
                                             <div className="col-lg-12">
