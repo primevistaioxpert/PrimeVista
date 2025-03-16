@@ -12,7 +12,7 @@ const Home1Banner2 = () => {
                         <div className="col-lg-12 d-flex justify-content-center">
                             <div className="banner-content">
                                 <div className="video-area">
-                                    <h2>Explore our</h2>
+                                    <h2>Explore our </h2>
                                     {/*<a data-fancybox="video-player" onClick={openModal} className="play-btn">
                                         <div className="icon">
                                             <svg className="video-circle" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="77px" viewBox="0 0 206 206" style={{ enableBackground: 'new 0 0 206 206' }} xmlSpace="preserve">
