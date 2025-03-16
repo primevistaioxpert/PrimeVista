@@ -12,12 +12,12 @@ const Home1WhyChooseus = () => {
           <div className="why-choose-us-content-wrap">
             <div className="section-title wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
               <span>Why Choose Us</span>
-              <h2>Building Your Dreams with Prime Vista</h2>
-              <p>At Prime Vista, we believe in making homeownership possible for everyone. Through our Rent-to-Own model, we provide affordable, high-quality homes tailored to your needs.</p>
+              <h2>Building a Better Future with Expertise, Integrity, and Innovation</h2>
+              <p>At Prime Vista Development and Management Solutions (PVDMS), we are more than just a construction and real estate development company—we are partners in progress. With deep expertise in construction, development, project management, and investment solutions, we provide a seamless, all-in-one approach to building strong, sustainable, and thriving communities.</p>
             </div>
             <div className="why-choose-us-content">
-              <h5>SINCE 2010</h5>
-              <p>For nearly two decades, Prime Vista has been at the forefront of residential construction, delivering homes that combine quality, affordability, and sustainability. Our goal is to help families achieve financial freedom through smart homeownership solutions.</p>
+              <h5>SINCE 2020</h5>
+              <p>Located in Surrey, BC, Canada, PVDMS was founded on the principles of quality, affordability, and community-driven growth. Our mission is to transform spaces, create value for investors, and contribute to the economic and social well-being of our communities.</p>
               <Link href="/about" className="primary-btn">
                 About Us More
                 <svg viewBox="0 0 13 20">

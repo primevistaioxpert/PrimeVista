@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "status": "Completed",
+        "title": "922 Maple St, White Rock",
+        "img": "/assets/img/projects/project-img1.png",
+        "link":""
+    },
+    {
+        "id": 2,
+        "status": "Completed",
+        "title": "14776 Thrift Ave, White Rock",
+        "img": "/assets/img/projects/project-img2.png",
+        "link":""
+    },
+    {
+        "id": 3,
+        "status": "Completed",
+        "title": "14778 Thrift Ave, White Rock",
+        "img": "/assets/img/projects/project-img3.png",
+        "link":""
+    },
+    {
+        "id": 4,
+        "status": "Completed",
+        "title": "5533 145 St, Surrey",
+        "img": "/assets/img/projects/project-img4.png",
+        "link":""
+    },
+    {
+        "id": 2,
+        "status": "Completed",
+        "title": "6789 124A St, Surrey",
+        "img": "/assets/img/home1/project-img2.jpg",
+        "link":""
+    },
+    {
+        "id": 2,
+        "status": "Upcoming",
+        "title": "Clayton Project",
+        "img": "/assets/img/home1/project-img2.jpg",
+        "link":""
+    },
+    {
+        "id": 2,
+        "status": "Upcoming",
+        "title": "18742 72 Ave, Surrey",
+        "img": "/assets/img/home1/project-img2.jpg",
+        "link":""
+    },
+    {
+        "id": 2,
+        "status": "Upcoming",
+        "title": "18758 72 Ave, Surrey",
+        "img": "/assets/img/home1/project-img2.jpg",
+        "link":""
+    },
+    {
+        "id": 2,
+        "status": "Upcoming",
+        "title": "197,000 square feet mixed-use residential and commercial development",
+        "img": "/assets/img/home1/project-img2.jpg",
+        "link":""
+    },
+    {
+        "id": 2,
+        "status": "Upcoming",
+        "title": "213 single-family homes",
+        "img": "/assets/img/home1/project-img2.jpg",
+        "link":""
+    },
+    {
+        "id": 2,
+        "status": "Upcoming",
+        "title": "16 commercial units",
+        "img": "/assets/img/home1/project-img2.jpg",
+        "link":""
+    },
+    {
+        "id": 2,
+        "status": "Upcoming",
+        "title": "City Center Project",
+        "img": "/assets/img/home1/project-img2.jpg",
+        "link":""
+    },
+    {
+        "id": 2,
+        "status": "Upcoming",
+        "title": "10515 138 St, Surrey, BC",
+        "img": "/assets/img/home1/project-img2.jpg",
+        "link":""
+    },
+    {
+        "id": 2,
+        "status": "Upcoming",
+        "title": "28 condo and townhouse units",
+        "img": "/assets/img/home1/project-img2.jpg",
+        "link":""
+    }
+
+]

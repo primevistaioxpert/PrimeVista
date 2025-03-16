@@ -1,6 +1,6 @@
 "use client";
 import React, { useMemo } from "react";
-
+import projectData from "../../data/project.json"
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
   Autoplay,
@@ -58,7 +58,7 @@ const Home1Project = () => {
             <div className="col-xl-5 col-lg-6 col-md-8">
               <div className="section-title white">
                 <span>Our Projects</span>
-                <h2>Discover Our Latest Projects.</h2>
+                <h2>Completed and ongoing Projects.</h2>
                 <Link href="/project" className="primary-btn white">
                   View All Project
                   <svg viewBox="0 0 13 20">
@@ -84,144 +84,35 @@ const Home1Project = () => {
             <div className="col-lg-12">
               <Swiper {...settings} className="swiper home1-project-slider">
                 <div className="swiper-wrapper">
-                  <SwiperSlide className="swiper-slide">
-                    <div className="project-card">
-                      <div className="project-img-wrap">
-                        <Link href="/project/project-details" className="project-img">
-                          <img src="assets/img/home1/project-img1.jpg" alt="" />
-                        </Link>
-                        <div className="button-area">
-                          <Link href="/project" className="primary-btn2">
-                            <span>
-                              View Project
-                              <svg viewBox="0 0 13 20">
-                                <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
-                              </svg>
-                            </span>
-                          </Link>
+                  {
+                    projectData.map((data) => {
+                      const { id, status, title, img, link } = data;
+                      return <SwiperSlide className="swiper-slide">
+                        <div className="project-card">
+                          <div className="project-img-wrap">
+                            <Link href="/project\" className="project-img">
+                              <img src={img} alt="" />
+                            </Link>
+                            <div className="button-area">
+                              <Link href="/project" className="primary-btn2">
+                                <span>
+                                  View Project
+                                  <svg viewBox="0 0 13 20">
+                                    <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
+                                  </svg>
+                                </span>
+                              </Link>
+                            </div>
+                          </div>
+                          <div className="project-content">
+                            <span>{status}</span>
+                            <h4><Link href="/project">{title}</Link></h4>
+                          </div>
                         </div>
-                      </div>
-                      <div className="project-content">
-                        <span>Client: Egenslab</span>
-                        <h4><Link href="/project/project-details">Unveiling Iconic Denies</Link></h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="project-card">
-                      <div className="project-img-wrap">
-                        <Link href="/project/project-details" className="project-img">
-                          <img src="assets/img/home1/project-img2.jpg" alt="" />
-                        </Link>
-                        <div className="button-area">
-                          <Link href="/project" className="primary-btn2">
-                            <span>
-                              View Project
-                              <svg viewBox="0 0 13 20">
-                                <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
-                              </svg>
-                            </span>
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="project-content">
-                        <span>Client: Brodie</span>
-                        <h4><Link href="/project/project-details">Constructing With Precision</Link></h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="project-card">
-                      <div className="project-img-wrap">
-                        <Link href="/project/project-details" className="project-img">
-                          <img src="assets/img/home1/project-img3.jpg" alt="" />
-                        </Link>
-                        <div className="button-area">
-                          <Link href="/project" className="primary-btn2">
-                            <span>
-                              View Project
-                              <svg viewBox="0 0 13 20">
-                                <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
-                              </svg>
-                            </span>
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="project-content">
-                        <span>Client: Nexaq</span>
-                        <h4><Link href="/project/project-details">Crafting the Framework</Link></h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="project-card">
-                      <div className="project-img-wrap">
-                        <Link href="/project/project-details" className="project-img">
-                          <img src="assets/img/home1/project-img4.jpg" alt="" />
-                        </Link>
-                        <div className="button-area">
-                          <Link href="/project" className="primary-btn2">
-                            <span>
-                              View Project
-                              <svg viewBox="0 0 13 20">
-                                <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
-                              </svg>
-                            </span>
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="project-content">
-                        <span>Client: Zenfy</span>
-                        <h4><Link href="/project/project-details">Construction Master Plan</Link></h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="project-card">
-                      <div className="project-img-wrap">
-                        <Link href="/project/project-details" className="project-img">
-                          <img src="assets/img/home1/project-img5.jpg" alt="" />
-                        </Link>
-                        <div className="button-area">
-                          <Link href="/project" className="primary-btn2">
-                            <span>
-                              View Project
-                              <svg viewBox="0 0 13 20">
-                                <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
-                              </svg>
-                            </span>
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="project-content">
-                        <span>Client: Triprex</span>
-                        <h4><Link href="/project/project-details">Project Build Vision</Link></h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="project-card">
-                      <div className="project-img-wrap">
-                        <Link href="/project/project-details" className="project-img">
-                          <img src="assets/img/home1/project-img6.jpg" alt="" />
-                        </Link>
-                        <div className="button-area">
-                          <Link href="/project" className="primary-btn2">
-                            <span>
-                              View Project
-                              <svg viewBox="0 0 13 20">
-                                <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
-                              </svg>
-                            </span>
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="project-content">
-                        <span>Client: Triprex</span>
-                        <h4><Link href="/project/project-details">Project Construction Phases</Link></h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
+                      </SwiperSlide>
+                    })
+                    
+                  }
                 </div>
               </Swiper>
             </div>

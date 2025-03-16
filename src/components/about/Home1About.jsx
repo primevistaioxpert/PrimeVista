@@ -12,7 +12,7 @@ const Home1About = ({ sectionGap }) => {
             <div className="col-lg-8 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
               <div className="about-title-area">
                 <div className="section-title">
-                  <span>Building Trust Since 2005</span>
+                  <span>Building Trust Since 2020</span>
                   <h2>Experts in Construction Your Excellence.</h2>
                 </div>
                 <div className="video-and-content">
@@ -58,15 +58,28 @@ const Home1About = ({ sectionGap }) => {
               <ul>
                 <li>
                   <h5>Who we are</h5>
-                  <p>At Prime Vista, we go beyond building homes—we build opportunities. Our Rent-to-Own model is designed to make homeownership more accessible, allowing families to invest in their future while securing a place to call home.</p>
+                  <p>Prime Vista Development and Management Solutions (PVDMS), we are more than just a construction and real estate development company—we are partners in progress. With deep expertise in construction, development, project management, and investment solutions, we provide a seamless, all-in-one approach to building strong, sustainable, and thriving communities.</p>
+                </li>
+                <li>
+                  <h5>Our Vision</h5>
+                  <p>To redefine the real estate and construction industry by delivering high-quality, innovative, and affordable housing solutions while fostering strong partnerships with our clients, investors, and communities.</p>
                 </li>
                 <li>
                   <h5>Our Mission</h5>
-                  <p>Empowering communities through accessible homeownership.</p>
-                </li>
-                <li>
-                  <h5>Core value</h5>
-                  <p>we are driven by empowerment, integrity, and community impact, ensuring that homeownership is accessible and life-changing. We prioritize quality, innovation, and sustainability, building homes that foster stability, growth, and a brighter future for families.</p>
+                  <ul>
+                    <li>
+                    <p>To develop modern, sustainable, and high-quality projects that enhance communities and improve lives.</p>
+                    </li>
+                    <li>
+                    <p>To empower investors and partners by providing profitable, secure, and scalable real estate investment opportunities.</p>
+                    </li>
+                    <li>
+                    <p>To prioritize affordability without compromising on quality, ensuring that our projects remain accessible to a wide range of buyers and tenants.</p>
+                    </li>
+                    <li>
+                    <p>To give back to the community by supporting social causes, creating job opportunities, and fostering local development.</p>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>

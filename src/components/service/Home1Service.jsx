@@ -8,7 +8,7 @@ const Home1Service = () => {
                 <div className="row justify-content-between align-items-end mb-80 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <div className="col-lg-4">
                         <div className="section-title">
-                            <span>Our Construction Services</span>
+                            <span>Our Core Services</span>
                             <h2>Services Tailored To You.</h2>
                         </div>
                     </div>
@@ -22,9 +22,9 @@ const Home1Service = () => {
                     <div className="col-lg-12">
                         <ul className="sevices-wrap">
                             <li className="single-services mb-20 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                <h3><Link href="/services/service-details">Residential <span>Construction</span></Link></h3>
+                                <h3><Link href="/">Construction &<span>Development</span> </Link></h3>
                                 <div className="content">
-                                    <p>Building quality homes designed for comfort, style, and sustainability. From custom homes to renovations, we create spaces where families can thrive.</p>
+                                    <p>From residential to commercial properties, we build with precision, efficiency, and sustainability in mind. Our projects range from custom homes to multi-unit developments, commercial spaces, and mixed-use properties.</p>
                                     <ul className="tag-list">
                                         <li><Link href="/">Family Homes</Link></li>
                                         <li><Link href="/">Single Home</Link></li>
@@ -41,16 +41,14 @@ const Home1Service = () => {
                                 </div>*/}
                             </li>
                             <li className="single-services mb-20 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                <h3><Link href="/services/service-details">Commercial <span>Construction</span></Link></h3>
+                                <h3><Link href="/">Real Estate <span>Investment Solutions</span></Link></h3>
                                 <div className="content">
-                                    <p>Developing modern and functional commercial spaces including offices, retail, and hospitality. Our projects prioritize efficiency, innovation, and long-term value.</p>
+                                    <p>We offer exclusive investment opportunities in real estate development, ensuring high returns through strategic planning, market analysis, and risk management.</p>
                                     <ul className="tag-list">
-                                        <li><Link href="/">Office Buildings</Link></li>
-                                        <li><Link href="/">Retail Spaces</Link></li>
-                                        <li><Link href="/">Restaurants</Link></li>
-                                        <li><Link href="/">Hotels</Link></li>
-                                        <li><Link href="/">Hospitality</Link></li>
-                                        <li><Link href="/">Medical Facilities</Link></li>
+                                        <li><Link href="/">High ROI</Link></li>
+                                        <li><Link href="/">Secure Investments</Link></li>
+                                        <li><Link href="/">Strategic Planning</Link></li>
+                                        <li><Link href="/">Passive Income</Link></li>
                                     </ul>
                                 </div>
                                 {/*<div className="button-area">
@@ -60,16 +58,27 @@ const Home1Service = () => {
                                 </div>*/}
                             </li>
                             <li className="single-services wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                <h3><Link href="/services/service-details">Industrial <span>Construction</span></Link></h3>
+                                <h3><Link href="/">Project & <span>Property Management</span></Link></h3>
                                 <div className="content">
-                                    <p>Constructing high-performance industrial facilities such as warehouses, manufacturing plants, and energy utilities to support business growth and operations.</p>
+                                    <p>We provide expert project management services, ensuring that projects are completed on time, within budget, and according to top industry standards. Additionally, our property management services help investors maximize rental income and maintain long-term property value.</p>
                                     <ul className="tag-list">
-                                        <li><Link href="/">Factories</Link></li>
-                                        <li><Link href="/">Warehouses</Link></li>
-                                        <li><Link href="/">Distribution Centers</Link></li>
-                                        <li><Link href="/">Manufacturing Plants</Link></li>
-                                        <li><Link href="/">Energy</Link></li>
-                                        <li><Link href="/">Utilities</Link></li>
+                                        <li><Link href="/">Rental Optimization</Link></li>
+                                        <li><Link href="/">Risk Mitigation</Link></li>
+                                        <li><Link href="/">Risk Mitigation</Link></li>
+                                        <li><Link href="/">Property Maintenance</Link></li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li className="single-services wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                <h3><Link href="/">Affordable Housing <span>Development</span></Link></h3>
+                                <div className="content">
+                                    <p>We are committed to developing high-quality yet cost-effective housing solutions, helping address the growing demand for affordable homes while maintaining exceptional construction standards.</p>
+                                    <ul className="tag-list">
+                                        <li><Link href="/">Sustainable Construction</Link></li>
+                                        <li><Link href="/">Cost-Effective Solutions</Link></li>
+                                        <li><Link href="/">Urban Redevelopment</Link></li>
+                                        <li><Link href="/">Energy-Efficient Homes</Link></li>
                                     </ul>
                                 </div>
                             </li>

@@ -49,7 +49,7 @@ const Home1Banner = () => {
                 </div>
             </div>
             <div className="banner-content">
-                <h1>Prime Vista Development and Management Solutions</h1>
+                <h1>Prime Vista Development and Management Solutions (PVDMS)</h1>
                 <Link href="/contact" className="primary-btn2 white-bg">
                     <span>
                         Start A Project
