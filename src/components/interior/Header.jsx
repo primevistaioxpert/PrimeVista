@@ -130,7 +130,7 @@ const Header = () => {
                                 </div>
                                 <div className="content">
                                     <span>ADDRESS</span>
-                                    <h6><a href="#">101 Interprice Way, Surrey, BC</a></h6>
+                                    <h6><a href="#">13137 62B avenue, Surrey, BC.</a></h6>
                                 </div>
                             </div>
                             <svg className="arrow" width={8} height={29} viewBox="0 0 8 29" xmlns="http://www.w3.org/2000/svg">
@@ -154,11 +154,11 @@ const Header = () => {
                     <ul className="address-area">
                         <li className="single-address">
                             <span>SURREY</span>
-                            <p>101 Interprice Way, BC, Canada</p>
+                            <p>13137 62B avenue, Surrey, BC.</p>
                         </li>
                         <li className="single-address">
                             <span>BURNABY</span>
-                            <p>101 Interprice Way, BC, Canada</p>
+                            <p>13137 62B avenue, Surrey, BC.</p>
                         </li>
                     </ul>
                 </div>
