@@ -87,29 +87,30 @@ const Home1Project = () => {
                   {
                     projectData.map((data) => {
                       const { id, status, title, img, link } = data;
-                      return <SwiperSlide className="swiper-slide">
-                        <div className="project-card">
-                          <div className="project-img-wrap">
-                            <Link href="/project\" className="project-img">
-                              <img src={img} alt="" />
-                            </Link>
-                            <div className="button-area">
-                              <Link href="/project" className="primary-btn2">
-                                <span>
-                                  View Project
-                                  <svg viewBox="0 0 13 20">
-                                    <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
-                                  </svg>
-                                </span>
+                      return 
+                        <SwiperSlide className="swiper-slide">
+                          <div className="project-card">
+                            <div className="project-img-wrap">
+                              <Link href="/project" className="project-img">
+                                <img src={img} alt="" />
                               </Link>
+                              <div className="button-area">
+                                <Link href="/project" className="primary-btn2">
+                                  <span>
+                                    View Project
+                                    <svg viewBox="0 0 13 20">
+                                      <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
+                                    </svg>
+                                  </span>
+                                </Link>
+                              </div>
+                            </div>
+                            <div className="project-content">
+                              <span>{status}</span>
+                              <h4><Link href="/project">{title}</Link></h4>
                             </div>
                           </div>
-                          <div className="project-content">
-                            <span>{status}</span>
-                            <h4><Link href="/project">{title}</Link></h4>
-                          </div>
-                        </div>
-                      </SwiperSlide>
+                        </SwiperSlide>
                     })
                     
                   }

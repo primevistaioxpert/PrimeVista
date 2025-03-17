@@ -17,7 +17,7 @@ const page = () => {
                     {
                         projectData.map((data) => {
                             const { id, status, title, img, link } = data;
-                            return <div className="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            return <div key = {id} className="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div className="project-card two magnetic-item">
                                     <div className="project-img-wrap">
                                         <div href={link} className="project-img">
