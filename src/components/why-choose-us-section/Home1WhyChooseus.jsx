@@ -40,10 +40,10 @@ const Home1WhyChooseus = () => {
               </li>
               <li className="single-counter">
                 <div className="number">
-                  <h2 className="counter"><CountUp end={5}  /></h2>
+                  <h2 className="counter"><CountUp end={2}  /></h2>
                 </div>
                 <div className="content">
-                  <p>Winning Award</p>
+                  <p>Upcoming Projects</p>
                 </div>
               </li>
               <li className="single-counter">
