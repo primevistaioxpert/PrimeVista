@@ -71,13 +71,13 @@ const Home1Team = () => {
             <div className="col-xxl-7 col-lg-8 wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
               <div className="founder-card">
                 <div className="founder-img">
-                  <img src="assets/img/home1/home1-team-founder-img.png" alt="" />
+                  <img src="assets/img/home1/jasvinder.png" alt="" />
                 </div>
                 <div className="founder-content">
                   <p>“we believe in building more than homes—we build opportunities. Our Rent-to-Own model is designed to make homeownership accessible and empower families to secure their future. With a commitment to quality, integrity, and community growth, we strive to create lasting value for every homeowner."</p>
                   <div className="name-and-desig">
                     <span>Founder at, Prime Vista</span>
-                    <h5>Jaswinder Singh</h5>
+                    <h5>Jasvinder Singh</h5>
                   </div>
                 </div>
               </div>
