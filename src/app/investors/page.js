@@ -3,11 +3,10 @@ import Header1 from '@/components/header/Header1'
 import Breadcrum from '@/components/common/Breadcrum'
 import Footer1 from '@/components/Footer/Footer1'
 import Home1FooterTop from '@/components/Footer/Home1FooterTop';
-export const metadata = {
-  icons: {
-    icon: "/assets/img/logo/pvdms8080.png",
-  },
-};
+
+import useModalVideo from '@/utils/useModalVideo'
+import Link from 'next/link'
+import Home1Support from '@/components/supports/Home1Support';
 
 const InvestorPage = () => {
   return (
@@ -16,154 +15,60 @@ const InvestorPage = () => {
       <Breadcrum content={"Invest With Us"} pageTitle={'Our Investors'} pagename={'investors'} />
       <div className="team-page pt-120 mb-120">
         <div className="container">
-          <div className="row gy-5 mb-70">
-            <div className="col-xl-3 col-md-4 col-sm-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-              <div className="team-card magnetic-item">
-                <div className="team-img">
-                  <img src="assets/img/home1/team-img1.png" alt="" />
-                </div>
-                <div className="team-content">
-                  <span>Project Manager</span>
-                  <h5>Olivern James</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-4 col-sm-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
-              <div className="team-card magnetic-item">
-                <div className="team-img">
-                  <img src="assets/img/home1/team-img2.png" alt="" />
-                </div>
-                <div className="team-content">
-                  <span>Architects</span>
-                  <h5>Mateob Henry</h5>
+        <div className="about-top-area mb-50">
+          <div className="row g-4 align-items-center justify-content-between">
+            <div className="col-lg-8 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+              <div className="about-title-area">
+                <div className="section-title">
+                  <span>Invest with confidence</span>
+                  <h2>Experts in Construction Your Excellence.</h2>
+                  <p>At Prime Vista Development & Management Solutions (PVDMS), we are more than just developers—we are visionaries committed to building innovative, sustainable, and high-quality projects that shape the future. Our expertise spans across project management, real estate development, and investment solutions, making us a trusted partner in growth.</p>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-md-4 col-sm-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
-              <div className="team-card magnetic-item">
-                <div className="team-img">
-                  <img src="assets/img/home1/team-img3.png" alt="" />
-                </div>
-                <div className="team-content">
-                  <span>Engineers</span>
-                  <h5>Eliason Jacob</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-4 col-sm-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
-              <div className="team-card magnetic-item">
-                <div className="team-img">
-                  <img src="assets/img/home1/team-img4.png" alt="" />
-                </div>
-                <div className="team-content">
-                  <span>Safety Officers</span>
-                  <h5>Caleb Cooper</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-4 col-sm-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
-              <div className="team-card magnetic-item">
-                <div className="team-img">
-                  <img src="assets/img/home1/team-img5.png" alt="" />
-                </div>
-                <div className="team-content">
-                  <span>Project Manager</span>
-                  <h5>Jackson Joseph</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-4 col-sm-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
-              <div className="team-card magnetic-item">
-                <div className="team-img">
-                  <img src="assets/img/home1/team-img6.png" alt="" />
-                </div>
-                <div className="team-content">
-                  <span>Architects</span>
-                  <h5>Michael Daniel</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-4 col-sm-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
-              <div className="team-card magnetic-item">
-                <div className="team-img">
-                  <img src="assets/img/inner-pages/team-img1.png" alt="" />
-                </div>
-                <div className="team-content">
-                  <span>Engineers</span>
-                  <h5>Eliason Jacob</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-4 col-sm-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-              <div className="team-card magnetic-item">
-                <div className="team-img">
-                  <img src="assets/img/inner-pages/team-img2.png" alt="" />
-                </div>
-                <div className="team-content">
-                  <span>Safety Officers</span>
-                  <h5>Caleb Cooper</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-4 col-sm-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-              <div className="team-card magnetic-item">
-                <div className="team-img">
-                  <img src="assets/img/inner-pages/team-img3.png" alt="" />
-                </div>
-                <div className="team-content">
-                  <span>Project Manager</span>
-                  <h5>Daniel Scoot</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-4 col-sm-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
-              <div className="team-card magnetic-item">
-                <div className="team-img">
-                  <img src="assets/img/inner-pages/team-img4.png" alt="" />
-                </div>
-                <div className="team-content">
-                  <span>Buyer’s Agent</span>
-                  <h5>Maverick Gabriel</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-4 col-sm-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
-              <div className="team-card magnetic-item">
-                <div className="team-img">
-                  <img src="assets/img/inner-pages/team-img5.png" alt="" />
-                </div>
-                <div className="team-content">
-                  <span>Sales Manager</span>
-                  <h5>Matthew Julian</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-4 col-sm-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
-              <div className="team-card magnetic-item">
-                <div className="team-img">
-                  <img src="assets/img/inner-pages/team-img6.png" alt="" />
-                </div>
-                <div className="team-content">
-                  <span>Office Manager</span>
-                  <h5>Gason Santiago</h5>
-                </div>
-              </div>
+            <div className="col-lg-12 wow animate fadeInDown" data-wow-delay="500ms" data-wow-duration="1500ms">
+              <div className="about-title-area">
+                <div className="row align-items-center">
+                  <h2>Why Invest in PVDMS?</h2>
+                  <div className="col-lg-5">
+                  <div className="about-content">
+                  <ul>
+                    <li data-wow-delay="500ms" data-wow-duration="1500ms">
+                      <h5>Proven Expertise & Track Record</h5>
+                    </li>
+                    <p>With years of industry experience, PVDMS has successfully delivered high-quality projects that exceed expectations. Our strategic approach to development ensures efficiency, profitability, and long-term value creation.</p>
+                    <li data-wow-delay="600ms" data-wow-duration="1500ms"><h5>Sustainable & High-Value Projects</h5>
+                    <p>We focus on projects that balance affordability, sustainability, and innovation. Our developments are designed to create lasting value for investors, businesses, and communities alike.</p></li>
+                    <br/>
+                    <li data-wow-delay="700ms" data-wow-duration="1500ms"><h5>Strong Market Position & Growth Potential</h5>
+                    <p>PVDMS operates in a rapidly growing sector, leveraging market trends to drive expansion and new opportunities. Our commitment to excellence ensures a competitive edge in the industry.</p></li>
+                    <br/>
+                    <li data-wow-delay="800ms" data-wow-duration="1500ms" ><h5>Transparent & Strategic Investment Approach</h5>
+                    <p>We prioritize transparency, data-driven decision-making, and a structured investment approach. Our investors benefit from clear insights into project timelines, financial expectations, and long-term profitability.</p></li>
+                    <br/>
+                    <li data-wow-delay="900ms" data-wow-duration="1500ms"><h5>Commitment to Quality & Innovation</h5>
+                    <p>At PVDMS, quality is at the heart of everything we do. From cutting-edge construction techniques to smart investment strategies, we continuously push the boundaries of excellence.</p></li>
+                    <br/>
+                  </ul>
+                  </div>
+                  </div>
+                  <div className="col-lg-7 d-lg-block d-none">
+            <div className="about-img magnetic-item">
+              <img src="assets/img/home1/about-img.jpg" alt="" />
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-12 d-flex justify-content-center">
-              <a href="#" className="primary-btn2 bounce_up">
-                <span>
-                  Load More
-                  <svg viewBox="0 0 13 20">
-                    <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
-                  </svg>
-                </span>
-              </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-2 col-lg-3 d-flex justify-content-lg-end">
+              
             </div>
           </div>
         </div>
+          
+        </div>
       </div>
+      <Home1Support/>
       <Home1FooterTop />
       <Footer1 />
     </>
